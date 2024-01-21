@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CatTestHub - An open database of experimental catalysis data</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffebcd; /* AntiqueWhite */
+        }
+        header {
+	    display: flex;
+            align-items: center;
+            padding: 20px;
+            background-color: #e9967a; /* DarkSalmon */
+            color: #fff;
+        }
+        header img {
+            max-width: 300%;
+            height: auto;
+            max-height: 300px; /* You can adjust the max-height as needed */
+	    margin-right: 100px; /* Adjust the margin for spacing */
+        }
+	header h1 {
+            font-size: 200px; /* Adjust the font size as needed */
+            margin: 0;
+        }
+        section {
+            margin: 20px 0;
+            padding: 20px;
+            background-color: #ffe4c4; /* Bisque */
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+	section img {
+            max-width: 300%;
+            height: 200 px;
+            max-height: 300px; /* You can adjust the max-height as needed */
+	    margin-right: 100px; /* Adjust the margin for spacing */
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #e9967a; /* DarkSalmon */
+            color: #fff;
+        }
+        iframe {
+            width: 100%;
+            height: 600px; /* You can adjust the height as needed */
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <!-- Add your image file path in the 'src' attribute -->
+        <img src="C:/Users/Atharva Burte/OneDrive - University of Massachusetts/Documents/Picture2-removebg-preview.png" alt="Logo Image">
+        <h1>CatTestHub</h1>
+    </header>
+
+    <!-- Section 1 Description -->
+    <section>
+        <h2>Welcome to CatTestHub!</h2>
+        <p>A collection of experimental chemical information over catalytic surfaces. The CPEC chemical catalysis database was designed to house experimentally measured kinetic, thermodynamic, and characterization information relevant to chemical turnover on catalytic surfaces. Below you can select from a growing list of catalytic chemistries that have been experimentally measured by CPEC members or curated from the scientific literature.</p>
+    </section>
+
+    <!-- Embedded Google Sheet -->
+    <section>
+        <h2>Catalysis Data Sheet</h2>
+        <iframe src="https://docs.google.com/spreadsheets/d/1J5i-nTgOIrkzNEpwdDco52uGI0oYUe36/edit#gid=2055015322"></iframe>
+    </section>
+
+    <!-- Section 3 Description -->
+    <section>
+        <h2>Members</h2>
+
+	<div class="members-container">
+            <!-- Member 1 -->
+    	    <div class="member">
+                <img src="C:/Users/Atharva Burte/OneDrive - University of Massachusetts/Documents/atharva.jpeg" alt="Member 1 Image">
+                <div>
+                    <h3>Atharva Burte</h3>
+		    <p>asburte@cougarnet.uh.edu</p>
+                </div>
+            </div>
+
+    	    <!-- Member 2 -->
+    	    <div class="member">
+                <img src="C:/Users/Atharva Burte/OneDrive - University of Massachusetts/Documents/paul_2.jpg" alt="Member 2 Image">
+                <div>
+                    <h3>Paul Dauenhauer</h3>
+		    <p>hauer@umn.edu</p>
+                </div>
+            </div>
+
+    	    <!-- Member 3 -->
+    	    <div class="member">
+                <img src="C:/Users/Atharva Burte/OneDrive - University of Massachusetts/Documents/abdelrahman.jpg" alt="Member 3 Image">
+                <div>
+                    <h3>Omar Abdelrahman*</h3>
+                    <p>oabdel@central.uh.edu</p>
+                </div>
+    	    </div>
+	</div?
+
+    </section>
+
+<style>
+    /* Add this to your existing style block or customize as needed */
+    .members-container {
+        display: flex;
+        justify-content: space-around; /* Adjust spacing between members */
+	align-items: center; /* Align items vertically to the center */
+    }
+
+    .member {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .member img {
+        width: 250px; /* Set the width as needed */
+        height: 250px; /* Set the height as needed */
+        border-radius: 50%; /* Optional: create circular images */
+    }
+</style>
+
+    <!-- Updated Footer -->
+    <footer>
+        <p>&copy; 2024 Center for Programmable Energy Catalysis. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
